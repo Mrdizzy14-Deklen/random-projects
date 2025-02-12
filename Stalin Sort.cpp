@@ -16,7 +16,13 @@ int main() {
     // Get the array input
     for(int i = 0; i < SIZE; i++) {
         cout << "Enter index " << i + 1 << ": \n";
-        cin >> arr[i];
+
+        // Check if valid input
+        while (!(cin >> arr[i])){
+            cout << "Invalid input (Input a number)\n" << "Enter index " << i + 1 << ": \n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
     }
 
     // Define a new size that can vary
