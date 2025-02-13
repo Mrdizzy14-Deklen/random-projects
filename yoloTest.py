@@ -5,12 +5,12 @@ from ultralytics import YOLO
 
 model = YOLO("yolov8m.pt")
 
-cap = cv.VideoCapture(14)
+cap = cv.VideoCapture(3)
 
 COLORS = {
     "person": (255, 0, 0),  # Blue
     "chair": (0, 0, 255),     # Red
-    "phone": (0, 255, 255),   # Yellow
+    "cell phone": (0, 255, 255),   # Yellow
     "bottle": (128, 0, 128),   # Purple
     "tv": (128, 128, 0),   # Orange
     "default": (0, 255, 0)  # Green (for unlisted classes)
