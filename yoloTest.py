@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 model = YOLO("yolov8m.pt")
 
-cap = cv.VideoCapture(14)
+cap = cv.VideoCapture(0)
 
 COLORS = {
     "person": (255, 0, 0),  # Blue
