@@ -35,6 +35,7 @@ int main() {
     for(int j = 0; j < size; j++) {
         cout << arr[j] << " ";
     }
+    cout << "\n";
 
     return 0;
 }
