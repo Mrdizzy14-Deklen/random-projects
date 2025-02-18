@@ -13,9 +13,9 @@ int main() {
     cout << "Enter an amount to exchange into bills and coins: ";
     do{
         cin >> amount;
-        //if(amount <= 0){
+        if(amount <= 0){
             cout << "Enter an amout greater than 0\n";
-        //}
+        }
     }while(amount <= 0);
     
     billExchange(amount);
@@ -63,39 +63,37 @@ void billExchange(float amount){
     }
 
     cout << hundred << " Hundreds, " << fifty << " Fifties, " << twenty << " Twenties, " << ten << " Tens, " << five << " Fives, " << one << " Ones, ";
-
     
-    coinExchange(amount);
+    int newAmount = (int)round(amount *= 100);
+
+    coinExchange(newAmount);
 }
 
 void coinExchange(int amount){
+
     int pennies = 0, nickels = 0, dimes = 0, quarters = 0;
-    cout << amount << "\n";
+    
     while(amount > 0){
         while(amount > 4){
             while(amount > 9){
                 while(amount > 24){
                     amount -= 25;
                     quarters++;
-                    cout << "q" << amount << "\n";
                 }
                 if(amount > 9){
                     amount -= 10;
                     dimes++;
-                    cout << "d" << amount << "\n";
 
                 }
             }
             if(amount > 4){
                 amount -= 5;
                 nickels++;
-                cout << "n" << amount << "\n";
             }
         }
         if(amount > 0){
             amount--;
             pennies++;
-            cout << "p" << amount << "\n";
         }
     }
     cout << quarters << " Quarters, " << dimes << " Dimes, " << nickels << " Nickels, and " << pennies << " Pennies.\n";
