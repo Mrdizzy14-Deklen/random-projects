@@ -38,5 +38,8 @@ int lazySearch(int *arr, int arrSize, int target){
             index = i;
         }
     }
+    if(index < 0){
+        cout << "got bored lol. ";
+    }
     return index;
 }
