@@ -1,0 +1,78 @@
+{
+  "pileNum": 40,
+  "vBins": 5120,
+  "cards": [
+    {
+      "name": "Intuition",
+      "setCode": "tpr",
+      "collectNum": 54,
+      "colors": "U",
+      "mValue": 3,
+      "type": "Instant",
+      "oracleID": "3c9faba7-f2d3-4978-be94-020dc8003dc0",
+      "amount": 1
+    },
+    {
+      "name": "Krenko, Mob Boss",
+      "setCode": "fdn",
+      "collectNum": 204,
+      "colors": "R",
+      "mValue": 4,
+      "type": "Legendary Creature — Goblin Warrior",
+      "oracleID": "68418069-f615-40ef-ae0d-764192acae00",
+      "amount": 1
+    },
+    {
+      "name": "Volt Charge",
+      "setCode": "one",
+      "collectNum": 155,
+      "colors": "R",
+      "mValue": 3,
+      "type": "Instant",
+      "oracleID": "c57907d1-c5a1-45c7-80a8-38fedf86dd19",
+      "amount": 1
+    },
+    {
+      "name": "Omniscience",
+      "setCode": "fdn",
+      "collectNum": 161,
+      "colors": "U",
+      "mValue": 10,
+      "type": "Enchantment",
+      "oracleID": "730e39e6-c61d-48b5-8827-bfd952bf1be7",
+      "amount": 1
+    },
+    {
+      "name": "Shakedown Heavy",
+      "setCode": "snc",
+      "collectNum": 95,
+      "colors": "B",
+      "mValue": 3,
+      "type": "Creature — Ogre Warrior",
+      "oracleID": "77b24f10-93af-44b9-af78-3a2f5ab32251",
+      "amount": 17
+    }
+  ],
+  "landCards": [
+    {
+      "name": "Forest",
+      "setCode": "tla",
+      "collectNum": 286,
+      "colors": "G",
+      "mValue": 0,
+      "type": "Basic Land — Forest",
+      "oracleID": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+      "amount": 1
+    },
+    {
+      "name": "Island",
+      "setCode": "tla",
+      "collectNum": 283,
+      "colors": "U",
+      "mValue": 0,
+      "type": "Basic Land — Island",
+      "oracleID": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+      "amount": 1
+    }
+  ]
+}
